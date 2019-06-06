@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 32 sec <<< FAILURE! - in TestSuite
+verifyA006Response_0(com.APBCBS.api.TestCases.VerifyA006Response)  Time elapsed: 0.758 sec  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [8102]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.APBCBS.api.ApiClasses.A006API.postRequestWithValidData(A006API.java:36)
+	at com.APBCBS.api.TestCases.VerifyA006Response.verifyA006Response_0(VerifyA006Response.java:22)
+

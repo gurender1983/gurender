@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\eclipse-workspace\APBCBS\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.APBCBS.api.TestCases.VerifyA021Response" hash-for-method="verifyA021Response_0({UserId=SYSTELLER, endpoint=/fcrjappinterface, SessionTicket=, ExternalBatchNumber=, txnAmount=1, Pr...)">verifyA021Response_0({UserId=SYSTELLER, endpoint=/fcrjappinterface, SessionTicket=, ExternalBatchNumber=, txnAmount=1, Pr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.APBCBS.api.TestCases.VerifyA031Response" hash-for-method="verifyA031Response_0({ToProductCode=, expectedReplyText=Invalid input details, SessionTicket=, fromAccount=, AddtionalFie...)">verifyA031Response_0({ToProductCode=, expectedReplyText=Invalid input details, SessionTicket=, fromAccount=, AddtionalFie...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.APBCBS.api.TestCases.VerifyA021Response</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyA021Response_0({UserId=SYSTELLER, endpoint=/fcrjappinterface, SessionTicket=, ExternalBatchNumber=, txnAmount=1, Pr...)">
+                  </a> <!-- verifyA021Response_0({UserId=SYSTELLER, endpoint=/fcrjappinterface, SessionTicket=, ExternalBatchNumber=, txnAmount=1, Pr...) -->
+                  <span class="method-name">verifyA021Response_0</span>
+                  <span class="parameters">({UserId=SYSTELLER, endpoint=/fcrjappinterface, SessionTicket=, ExternalBatchNumber=, txnAmount=1, PrimaryPassword=, FromSMSFlag=N, TransactionBranch=9999, FlagScReversal=Y, BankCode=753, ExternalSystemAuditTrailNumber=, ExternalReferenceNo=CBSAPI0000831052018, AddtionalField2=ABC, AddtionalField1=XYZ, Channel=API, expectedErrorCode=0, FromSMSAddition=, OverridenWarnings=, FlagFullOrPartial=F, ServiceCode=A021, CrNarrative=Rev Credit cust, ValueDateText=, UserReferenceNumber=, SupUserId=, ToSMSAddition=, expectedReplyText=Invalid input details, DrNarrative=Rev Debit cust, sOriginalReferenceNo=, PostingDateText=, LocalDateTimeText=, RefundTransactionReferenceNumber=9835134856, ToSMSFlag=N})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.APBCBS.api.TestCases.VerifyA031Response</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyA031Response_0({ToProductCode=, expectedReplyText=Invalid input details, SessionTicket=, fromAccount=, AddtionalFie...)">
+                  </a> <!-- verifyA031Response_0({ToProductCode=, expectedReplyText=Invalid input details, SessionTicket=, fromAccount=, AddtionalFie...) -->
+                  <span class="method-name">verifyA031Response_0</span>
+                  <span class="parameters">({ToProductCode=, expectedReplyText=Invalid input details, SessionTicket=, fromAccount=, AddtionalField2=, PrimaryPassword=, AddtionalField1=IMPS, toGLCode=, toAccount=, ToSMSFlag=Y, ValueDateText=, CrNarrative=Credit, differentialChargingParam3=, differentialChargingParam2=IMPS, differentialChargingParam1=YES, transactionType=P, FromSMSAddition=, UserReferenceNumber=63112, endpoint=/fcrjappinterface, fromBranchCode=9999, fromGLCode=220101212, expectedErrorCode=0, fromCustNationalIdentificationCode=, LocalDateTimeText=, transferMode=2, ToSMSAddition=, SupUserId=, fromCustomerSegment=, txnCCY=1, toCustNationalIdentificationCode=9971604512, Channel=API, DrNarrative=, toCustomerSegment=SCM, OriginalReferenceNo=, ServiceCode=A031, toBranchCode=, txnAmount=1, onBehalfCustomerName=, TransactionBranch=9999, PostingDateText=, FromSMSFlag=N, ExternalReferenceNo=CBSAPI0000130052018, UserId=SYSTELLER, FromProductCode=, BankCode=753, sOriginalReferenceNo=, ExternalBatchNumber=, OverridenWarnings=, onBehalfNationalIdentificationCode=, ExternalSystemAuditTrailNumber=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\eclipse-workspace\APBCBS\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.APBCBS.api.TestUtils.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;com.APBCBS.api.TestUtils.RetryListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;API Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.APBCBS.api.TestCases.VerifyA031Response&quot;/&gt;
+      &lt;class name=&quot;com.APBCBS.api.TestCases.VerifyA021Response&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyA031Response_0')
+data.setCell(0, 2, 'com.APBCBS.api.TestCases.VerifyA031Response')
+data.setCell(0, 3, 4699);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyA021Response_0')
+data.setCell(1, 2, 'com.APBCBS.api.TestCases.VerifyA021Response')
+data.setCell(1, 3, 1139);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.APBCBS.api.TestCases.VerifyA021Response</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">configure</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.APBCBS.api.TestCases.VerifyA031Response</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
+                <span class="method-name">configure</span>
+                <span class="method-start">186 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">526 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.APBCBS.api.TestCases.VerifyA031Response.verifyA031Response_0(java.util.Hashtable) th...)</span>
+                <span class="method-start">554 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyA031Response_0({ToProductCode=, expectedReplyText=Invalid input details, SessionTicket=, fromAccount=, AddtionalFie...)</span>
+                <span class="method-start">555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5260 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.APBCBS.api.TestCases.VerifyA021Response</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">5931 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.APBCBS.api.TestCases.VerifyA021Response.verifyA021Response_0(java.util.Hashtable) th...)</span>
+                <span class="method-start">5934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyA021Response_0({UserId=SYSTELLER, endpoint=/fcrjappinterface, SessionTicket=, ExternalBatchNumber=, txnAmount=1, Pr...)</span>
+                <span class="method-start">5934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">7076 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.APBCBS.api.TestCases.VerifyA031Response</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">7472 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

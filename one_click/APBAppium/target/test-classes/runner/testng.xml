@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="com.APB.Appium.CustomListeners.CustomListeners"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.APB.Appium.TestCases.ValidateLogin"/>
+      <class name="com.APB.Appium.TestCases.VerifyOTP"/>
+      <!-- <class name="com.APB.Appium.TestCases.SignUp"/> -->
+      <!-- <class name="com.APB.Appium.TestCases.BankDetail"/> -->
+      <!-- <class name="com.APB.Appium.TestCases.PanDetails"/> -->
+      <!-- <class name="com.APB.Appium.TestCases.FinalSignUp"/> -->
+      <!-- <class name="com.APB.Appium.TestCases.CongratulationScreen"/> -->
+      <class name="com.APB.Appium.TestCases.UpdateKYC"/>
+      <class name="com.APB.Appium.TestCases.mPin_Enter"/>
+      <class name="com.APB.Appium.TestCases.MyProfile"/>
+      <class name="com.APB.Appium.TestCases.ReceivedPayment"/>
+      <!-- <class name="com.APB.Appium.TestCases.UpdatePAN"/> -->
+      <!--<class name="com.APB.Appium.Rough.TestCase"/>  -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

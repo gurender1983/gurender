@@ -1,0 +1,38 @@
+{
+  "name": "one_click",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "pretest": "rm -rf allure-report && rm -rf allure-results",
+    "test": "protractor conf_phantom.js || true",
+    "posttest": "allure generate allure-results --clean -o allure-report || true"
+  },
+  "author": "sanjeev kumar",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "2.5.0",
+    "allure-js-commons": "1.3.2",
+    "base-64": "^0.1.0",
+    "file-type": "8.0.0",
+    "fs-extra": "6.0.1",
+    "graceful-fs": "4.1.11",
+    "is-base64": "0.0.5",
+    "jasmine": "^2.4.1",
+    "jasmine-allure-reporter": "1.0.2",
+    "js-sha512": "^0.3.0",
+    "js2xmlparser": "3.0.0",
+    "jsonfile": "4.0.0",
+    "mime": "2.3.1",
+    "object-assign": "4.1.1",
+    "oracledb": "^2.1.0",
+    "package": "^1.0.1",
+    "phantomjs-prebuilt": "^2.1.16",
+    "protractor-beautiful-reporter": "^1.2.1",
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0",
+    "protractor-pretty-html-reporter": "^0.0.16",
+    "universalify": "0.1.1",
+    "xlsx": "^0.8.8",
+    "xmlcreate": "1.0.2"
+  }
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6914" started-at="2018-08-21T11:37:00Z" finished-at="2018-08-21T11:37:07Z">
+    <groups>
+    </groups>
+    <test name="API Test" duration-ms="6914" started-at="2018-08-21T11:37:00Z" finished-at="2018-08-21T11:37:07Z">
+      <class name="com.APBCBS.api.TestCases.VerifyA021Response">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.APBCBS.api.TestCases.VerifyA021Response@7ec7ffd3]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-08-21T17:07:06Z" finished-at="2018-08-21T17:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.APBCBS.api.TestCases.VerifyA021Response@7ec7ffd3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-08-21T17:07:06Z" finished-at="2018-08-21T17:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.APBCBS.api.TestCases.VerifyA021Response.verifyA021Response_0(java.util.Hashtable) throws javax.xml.bind.JAXBException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyA021Response_0(java.util.Hashtable)[pri:0, instance:com.APBCBS.api.TestCases.VerifyA021Response@7ec7ffd3]" name="verifyA021Response_0" duration-ms="1139" started-at="2018-08-21T17:07:06Z" data-provider="dp" finished-at="2018-08-21T17:07:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserId=SYSTELLER, endpoint=/fcrjappinterface, SessionTicket=, ExternalBatchNumber=, txnAmount=1, PrimaryPassword=, FromSMSFlag=N, TransactionBranch=9999, FlagScReversal=Y, BankCode=753, ExternalSystemAuditTrailNumber=, ExternalReferenceNo=CBSAPI0000831052018, AddtionalField2=ABC, AddtionalField1=XYZ, Channel=API, expectedErrorCode=0, FromSMSAddition=, OverridenWarnings=, FlagFullOrPartial=F, ServiceCode=A021, CrNarrative=Rev Credit cust, ValueDateText=, UserReferenceNumber=, SupUserId=, ToSMSAddition=, expectedReplyText=Invalid input details, DrNarrative=Rev Debit cust, sOriginalReferenceNo=, PostingDateText=, LocalDateTimeText=, RefundTransactionReferenceNumber=9835134856, ToSMSFlag=N}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyA021Response_0 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.APBCBS.api.TestCases.VerifyA021Response@7ec7ffd3]" name="afterMethod" is-config="true" duration-ms="340" started-at="2018-08-21T17:07:07Z" finished-at="2018-08-21T17:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.APBCBS.api.TestCases.VerifyA021Response -->
+      <class name="com.APBCBS.api.TestCases.VerifyA031Response">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.APBCBS.api.TestCases.VerifyA031Response@59309333]" name="setUp" is-config="true" duration-ms="186" started-at="2018-08-21T17:07:00Z" finished-at="2018-08-21T17:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="configure()[pri:0, instance:com.APBCBS.api.TestCases.VerifyA031Response@59309333]" name="configure" is-config="true" duration-ms="316" started-at="2018-08-21T17:07:00Z" depends-on-methods="com.APBCBS.api.Setup.TestSetup.setUp" finished-at="2018-08-21T17:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.APBCBS.api.TestCases.VerifyA031Response@59309333]" name="beforeClass" is-config="true" duration-ms="3" started-at="2018-08-21T17:07:00Z" finished-at="2018-08-21T17:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.APBCBS.api.TestCases.VerifyA031Response@59309333]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-21T17:07:01Z" finished-at="2018-08-21T17:07:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.APBCBS.api.TestCases.VerifyA031Response.verifyA031Response_0(java.util.Hashtable) throws javax.xml.bind.JAXBException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyA031Response_0(java.util.Hashtable)[pri:0, instance:com.APBCBS.api.TestCases.VerifyA031Response@59309333]" name="verifyA031Response_0" duration-ms="4699" started-at="2018-08-21T17:07:01Z" data-provider="dp" finished-at="2018-08-21T17:07:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ToProductCode=, expectedReplyText=Invalid input details, SessionTicket=, fromAccount=, AddtionalField2=, PrimaryPassword=, AddtionalField1=IMPS, toGLCode=, toAccount=, ToSMSFlag=Y, ValueDateText=, CrNarrative=Credit, differentialChargingParam3=, differentialChargingParam2=IMPS, differentialChargingParam1=YES, transactionType=P, FromSMSAddition=, UserReferenceNumber=63112, endpoint=/fcrjappinterface, fromBranchCode=9999, fromGLCode=220101212, expectedErrorCode=0, fromCustNationalIdentificationCode=, LocalDateTimeText=, transferMode=2, ToSMSAddition=, SupUserId=, fromCustomerSegment=, txnCCY=1, toCustNationalIdentificationCode=9971604512, Channel=API, DrNarrative=, toCustomerSegment=SCM, OriginalReferenceNo=, ServiceCode=A031, toBranchCode=, txnAmount=1, onBehalfCustomerName=, TransactionBranch=9999, PostingDateText=, FromSMSFlag=N, ExternalReferenceNo=CBSAPI0000130052018, UserId=SYSTELLER, FromProductCode=, BankCode=753, sOriginalReferenceNo=, ExternalBatchNumber=, OverridenWarnings=, onBehalfNationalIdentificationCode=, ExternalSystemAuditTrailNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyA031Response_0 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.APBCBS.api.TestCases.VerifyA031Response@59309333]" name="afterMethod" is-config="true" duration-ms="670" started-at="2018-08-21T17:07:05Z" finished-at="2018-08-21T17:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.APBCBS.api.TestCases.VerifyA031Response@59309333]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-08-21T17:07:07Z" finished-at="2018-08-21T17:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.APBCBS.api.TestCases.VerifyA031Response -->
+    </test> <!-- API Test -->
+  </suite> <!-- Suite -->
+</testng-results>

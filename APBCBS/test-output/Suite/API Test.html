@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>TestNG:  API Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>API Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 21 17:07:00 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6914 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.APBCBS.api.TestCases.VerifyA021Response.verifyA021Response_0()'><b>verifyA021Response_0</b><br>Test class: com.APBCBS.api.TestCases.VerifyA021Response<br>Parameters: {UserId=SYSTELLER, endpoint=/fcrjappinterface, SessionTicket=, ExternalBatchNumber=, txnAmount=1, PrimaryPassword=, FromSMSFlag=N, TransactionBranch=9999, FlagScReversal=Y, BankCode=753, ExternalSystemAuditTrailNumber=, ExternalReferenceNo=CBSAPI0000831052018, AddtionalField2=ABC, AddtionalField1=XYZ, Channel=API, expectedErrorCode=0, FromSMSAddition=, OverridenWarnings=, FlagFullOrPartial=F, ServiceCode=A021, CrNarrative=Rev Credit cust, ValueDateText=, UserReferenceNumber=, SupUserId=, ToSMSAddition=, expectedReplyText=Invalid input details, DrNarrative=Rev Debit cust, sOriginalReferenceNo=, PostingDateText=, LocalDateTimeText=, RefundTransactionReferenceNumber=9835134856, ToSMSFlag=N}</td>
+<td></td>
+<td>1</td>
+<td>com.APBCBS.api.TestCases.VerifyA021Response@7ec7ffd3</td></tr>
+<tr>
+<td title='com.APBCBS.api.TestCases.VerifyA031Response.verifyA031Response_0()'><b>verifyA031Response_0</b><br>Test class: com.APBCBS.api.TestCases.VerifyA031Response<br>Parameters: {ToProductCode=, expectedReplyText=Invalid input details, SessionTicket=, fromAccount=, AddtionalField2=, PrimaryPassword=, AddtionalField1=IMPS, toGLCode=, toAccount=, ToSMSFlag=Y, ValueDateText=, CrNarrative=Credit, differentialChargingParam3=, differentialChargingParam2=IMPS, differentialChargingParam1=YES, transactionType=P, FromSMSAddition=, UserReferenceNumber=63112, endpoint=/fcrjappinterface, fromBranchCode=9999, fromGLCode=220101212, expectedErrorCode=0, fromCustNationalIdentificationCode=, LocalDateTimeText=, transferMode=2, ToSMSAddition=, SupUserId=, fromCustomerSegment=, txnCCY=1, toCustNationalIdentificationCode=9971604512, Channel=API, DrNarrative=, toCustomerSegment=SCM, OriginalReferenceNo=, ServiceCode=A031, toBranchCode=, txnAmount=1, onBehalfCustomerName=, TransactionBranch=9999, PostingDateText=, FromSMSFlag=N, ExternalReferenceNo=CBSAPI0000130052018, UserId=SYSTELLER, FromProductCode=, BankCode=753, sOriginalReferenceNo=, ExternalBatchNumber=, OverridenWarnings=, onBehalfNationalIdentificationCode=, ExternalSystemAuditTrailNumber=}</td>
+<td></td>
+<td>4</td>
+<td>com.APBCBS.api.TestCases.VerifyA031Response@59309333</td></tr>
+</table><p>
+</body>
+</html>
