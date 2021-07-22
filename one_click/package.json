@@ -32,7 +32,7 @@
     "protractor-jasmine2-screenshot-reporter": "^0.5.0",
     "protractor-pretty-html-reporter": "^0.0.16",
     "universalify": "0.1.1",
-    "xlsx": "^0.8.8",
+    "xlsx": "^0.17.0",
     "xmlcreate": "1.0.2"
   }
 }
